@@ -7,13 +7,13 @@ namespace SquaredUnitTests
     public class UnitTest1
     {
         [Fact]
-        public void Test1()
+        public void TestAddition()
         {
             Assert.Equal(4, Add(2, 2));
         }
 
         [Fact]
-        public void Test2()
+        public void TestSquares()
         {
             Assert.Equal(16, Square(4));
         }

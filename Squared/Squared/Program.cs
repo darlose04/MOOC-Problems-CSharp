@@ -7,10 +7,10 @@ namespace Squared
         static void Main(string[] args)
         {
             Console.WriteLine("Enter a number: ");
-            string userEntry = Console.ReadLine();
-
-
-
+            int number = Int32.Parse(Console.ReadLine());
+            
+            int square = number * number;
+            Console.WriteLine($"The square of {number} is {square}.");
         }
     }
 }
