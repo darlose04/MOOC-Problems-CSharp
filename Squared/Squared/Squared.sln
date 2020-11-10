@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Squared", "..\..\MOOC_Problems\Squared\Squared\Squared.csproj", "{80511029-7A5B-4D6B-B714-B0919FD141A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Squared", "Squared.csproj", "{129BA742-4268-4210-97E2-49FE9A6A8E96}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{80511029-7A5B-4D6B-B714-B0919FD141A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{80511029-7A5B-4D6B-B714-B0919FD141A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{80511029-7A5B-4D6B-B714-B0919FD141A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{80511029-7A5B-4D6B-B714-B0919FD141A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{129BA742-4268-4210-97E2-49FE9A6A8E96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{129BA742-4268-4210-97E2-49FE9A6A8E96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{129BA742-4268-4210-97E2-49FE9A6A8E96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{129BA742-4268-4210-97E2-49FE9A6A8E96}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {46BEF211-C93B-4D60-BD81-DAE859A30087}
+		SolutionGuid = {0462A1F3-DA4B-487F-8E53-A9434413399B}
 	EndGlobalSection
 EndGlobal
