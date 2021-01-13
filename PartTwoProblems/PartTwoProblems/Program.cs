@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace PartTwoProblems
 {
@@ -8,8 +9,9 @@ namespace PartTwoProblems
         {
             //SumOfNumbers();
             //AverageOfNumbers();
-            int output = Greatest(6, 2, 5);
-            Console.WriteLine($"Greatest: {output}");
+            //int output = Greatest(6, 2, 5);
+            //Console.WriteLine($"Greatest: {output}");
+            //ListThirdItem();
         }
 
         public static void SumOfNumbers()
@@ -69,6 +71,33 @@ namespace PartTwoProblems
             }
 
             return num3;
+        }
+
+        public static void ListThirdItem()
+        {
+            var names = new List<string>();
+
+            
+
+            while (true)
+            {
+                Console.WriteLine("Enter a name. If you enter an empty string, the program will stop.");
+                string userInput = Console.ReadLine();
+
+                if (userInput == "")
+                {
+                    break;
+                }
+
+                names.Add(userInput);
+            }
+
+            //foreach(string name in names)
+            //{
+            //    Console.WriteLine(name);
+            //}
+
+            Console.WriteLine(names[2]);
         }
     }
 }
