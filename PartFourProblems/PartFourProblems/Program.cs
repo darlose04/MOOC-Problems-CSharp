@@ -14,6 +14,8 @@ namespace PartFourProblems
             statistics.AddNumber(1);
             statistics.AddNumber(2);
             Console.WriteLine($"Count: {statistics.Count}");
+            Console.WriteLine($"Sum: {statistics.Sum}");
+            Console.WriteLine($"Average: {statistics.Average()}");
         }
     }
 }

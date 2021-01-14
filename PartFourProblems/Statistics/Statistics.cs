@@ -16,15 +16,36 @@ namespace Statistics
                 _count = value;
             }
         }
+        private int _sum { get; set; }
+        public int Sum
+        {
+            get
+            {
+                return _sum;
+            }
+            set
+            {
+                _sum = value;
+            }
+        }
 
         public Statistics()
         {
-            this._count = 0;
+            _count = 0;
+            _sum = 0;
         }
 
         public void AddNumber(int number)
         {
+            this._sum += number;
             this._count++;
+        }
+
+        public double Average()
+        {
+            double sum = _sum;
+            double average = sum / _count;
+            return average;
         }
     }
 }
